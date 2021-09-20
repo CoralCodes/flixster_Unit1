@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,7 @@
 		37B172F526EEEED800AA2187 /* flixster_Unit1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B172F426EEEED800AA2187 /* flixster_Unit1UITests.swift */; };
 		37B1730326EFD08F00AA2187 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B1730226EFD08F00AA2187 /* MoviesViewController.swift */; };
 		37B1730526F163AA00AA2187 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B1730426F163AA00AA2187 /* MovieCell.swift */; };
+		37E779BC26F81D430031D512 /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E779BB26F81D430031D512 /* MovieDetailsViewController.swift */; };
 		6E1B9FFD28514B7965CADCEB /* Pods_flixster_Unit1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAE096C67CC35E3C8184DB9E /* Pods_flixster_Unit1.framework */; };
 		888CB06DD47E1D8605CC1B8C /* Pods_flixster_Unit1_flixster_Unit1UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CD9D2914F18C1177D387E62 /* Pods_flixster_Unit1_flixster_Unit1UITests.framework */; };
 		FF33E8A7F1B99C0506410132 /* Pods_flixster_Unit1Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47CD5194210D16AE63959828 /* Pods_flixster_Unit1Tests.framework */; };
@@ -56,6 +57,7 @@
 		37B172F626EEEED800AA2187 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37B1730226EFD08F00AA2187 /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
 		37B1730426F163AA00AA2187 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		37E779BB26F81D430031D512 /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
 		47CD5194210D16AE63959828 /* Pods_flixster_Unit1Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_flixster_Unit1Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5647543CB8BEB519DD1B06DD /* Pods-flixster_Unit1-flixster_Unit1UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flixster_Unit1-flixster_Unit1UITests.release.xcconfig"; path = "Target Support Files/Pods-flixster_Unit1-flixster_Unit1UITests/Pods-flixster_Unit1-flixster_Unit1UITests.release.xcconfig"; sourceTree = "<group>"; };
 		9185B47C43742E4D16BC9AC0 /* Pods-flixster_Unit1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flixster_Unit1.release.xcconfig"; path = "Target Support Files/Pods-flixster_Unit1/Pods-flixster_Unit1.release.xcconfig"; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 				37B172DD26EEEED800AA2187 /* LaunchScreen.storyboard */,
 				37B172E026EEEED800AA2187 /* Info.plist */,
 				37B1730226EFD08F00AA2187 /* MoviesViewController.swift */,
+				37E779BB26F81D430031D512 /* MovieDetailsViewController.swift */,
 			);
 			path = flixster_Unit1;
 			sourceTree = "<group>";
@@ -158,7 +161,6 @@
 				D5CC67F65284FB4F6E902D3E /* Pods-flixster_Unit1Tests.debug.xcconfig */,
 				320FDB5ABE5B3AD332B64489 /* Pods-flixster_Unit1Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -410,6 +412,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37E779BC26F81D430031D512 /* MovieDetailsViewController.swift in Sources */,
 				37B172D326EEEED700AA2187 /* AppDelegate.swift in Sources */,
 				37B172D526EEEED700AA2187 /* SceneDelegate.swift in Sources */,
 				37B1730526F163AA00AA2187 /* MovieCell.swift in Sources */,
